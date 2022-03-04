@@ -11,7 +11,7 @@ function callAddInformation (){
         document.getElementById("container2").style.display = "block";
         document.getElementById("exportName").innerHTML = name1;
         document.getElementById("exportPhone").innerHTML = phone1;
-        document.getElementById("network");
+        
         function mFunction(sel) {
             var sel = document.getElementById("network"); 
             var text = sel.options[sel.selectedIndex].text;
