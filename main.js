@@ -149,41 +149,41 @@
 //     }
 // }
 // - thao tac voi mang map
-var array= [
-    {
-        id: 1,
-        name: 'php',
-        coin: 12, 
-    },
-    {
-        id: 2,
-        name: 'php1',
-        coin: 12, 
-    },
-    {
-        id: 3,
-        name: 'php2',
-        coin: 124, 
-    },
-    {
-        id: 4,
-        name: 'php3',
-        coin: 123, 
-    },
-]
-// doi cac phan tu trong mang bang vong lap
-function arrayhandler(array){
-    // console.log(array)
-    return{
-        id: array.id,
-        name: `khoa hoc: ${array.name}`,
-        coin: array.coin,
-    }
-}
-var newarray = array.map(arrayhandler);
-console.log(newarray)
+// var array= [
+//     {
+//         id: 1,
+//         name: 'php',
+//         coin: 12, 
+//     },
+//     {
+//         id: 2,
+//         name: 'php1',
+//         coin: 12, 
+//     },
+//     {
+//         id: 3,
+//         name: 'php2',
+//         coin: 124, 
+//     },
+//     {
+//         id: 4,
+//         name: 'php3',
+//         coin: 123, 
+//     },
+// ]
+// // doi cac phan tu trong mang bang vong lap
+// function arrayhandler(array){
+//     // console.log(array)
+//     return{
+//         id: array.id,
+//         name: `khoa hoc: ${array.name}`,
+//         coin: array.coin,
+//     }
+// }
+// var newarray = array.map(arrayhandler);
+// console.log(newarray)
 
-var totalcoin=array.reduce(function(total,count){
-    return total + count.coin;
-},0)
-console.log(totalcoin)
+// var totalcoin=array.reduce(function(total,count){
+//     return total + count.coin;
+// },0)
+// console.log(totalcoin)
